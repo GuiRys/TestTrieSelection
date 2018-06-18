@@ -1,8 +1,10 @@
 ### Algo de trie par sélection sur plusieurs listes
 
 version = ["3.4.2", "1.4.1", "4.4.2", "4.5.2"]
-On split avec '.' pour chaque version ce qui retourne un tableau de int
+On split avec '.' pour chaque version ce qui retourne un tableau de int.
+
 version = [[3,4,2,1], [1.4.1.1], [4.4.2.1], [4.5.2.1]]
+
 On utilise ensuite la fonction tri_selection(version, length(version))
 
 ```java
